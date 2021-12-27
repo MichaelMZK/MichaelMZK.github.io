@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Halaman Utama</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: #6fc70a;
+      }
+
+      /* Header/Blog Title */
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: rgb(7, 148, 241);
+      }
+
+      .header h1 {
+        font-size: 50px;
+      }
+
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color: rgba(8, 208, 243, 0.904);
+      }
+
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #1f07f8;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: rgb(196, 184, 21);
+        color: black;
+      }
+
+      /* Create two unequal columns that floats next to each other */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: #6fc70a;
+        padding-left: 20px;
+      }
+
+      /* Fake image */
+      .fakeimg {
+        background-color: rgb(9, 150, 216);
+        width: 0%;
+        padding: 0px;
+      }
+
+      /* Add a card effect for articles */
+      .card {
+        background-color: rgb(233, 106, 21);
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Footer */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: rgb(14, 207, 143);
+        margin-top: 20px;
+      }
+
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+        .leftcolumn,
+        .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Michael Christianto Leonardo</h1>
+      <p>Mahasiswa Jurusan Manajemen Universitas Bunda Mulia 👨‍🎓</p>
+      <p>Website ini merupakan Portofolio Diri Saya Tentang Pengalaman berlibur ke Negara Perancis, khususnya Kota Paris. Semoga Pengalaman Saya ini bisa menginspirasi maupun memotivasi kalian yang telah berkunjung ke website ini.🥰🙌</p>
+    </div>
+
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="list.html">About Us</a>
+      <a href="Gallery.html">Gallery</a>
+      <a href="Contact Us.html" style="float: right">Contact Us</a>
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>Liburan Ke Perancis Sebelum Pandemi</h2>
+          <h5>Wisata Menarik di Kota Paris, 20 Juni 2019</h5>
+          <div class="fakeimg" style="height: 200px"></div>
+          <img src="Paris 7.jpg" alt="Paris 7" width="950" height="950" align="middle" border="4" />
+          <p>Menara Eiffel di Kota Paris</p>
+          <p>
+            Dimana Menara Eiffel merupakan sebuah iconik dari negara Perancis dan banyak dikunjungi oleh turis mancanegara dari berbagai belahan dunia. Kemudian di dekat Menara Eiffel ada sebuah restoran yang bernama Cafe Brasserie yang
+            banyak diminati oleh turis untuk mencoba makanan khas negara Perancis.
+          </p>
+        </div>
+      </div>
+      <div class="rightcolumn">
+        <div class="card">
+          <h2>Biodata Michael Christianto</h2>
+          <div class="fakeimg" style="height: 100px"></div>
+          <img src="Michael Christianto.jpg" alt="Michael Christianto" width="250" height="250" align="middle" border="4" />
+          <p>Saya adalah Michael Christianto Leonardo. Dimana merupakan mahasiswa Universitas Bunda Mulia dan website ini saya buat untuk membagi pengalaman berwisata ketika berlibur ke negara Perancis, tepatnya di Kota Paris.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>
+        Author: 12180264 - Michael Christianto Leonardo<br />
+        <a href="mailto:michaelcristianto1@gmail.com">michaelcristianto1@gmail.com</a>
+      </p>
+      <a href="https://instagram.com"><img src="IG.png" width="50" height="50" /></a>
+      <a href="https://facebook.com"><img src="Facebook.png" width="50" height="50" /></a>
+      <a href="https://www.tiktok.com/"><img src="Tiktok.png" width="50" height="50" /></a>
+    </div>
+  </body>
+</html>
+
+<doctype html>
+  <html>
+    <head>
+      <title>Tentang Portofolio Diri</title>
+    </head>
+    <body bgcolor="#00FFFF">
+      <font color="Coral gold">
+        <h1>Biodata Saya :</h1>
+        <p>Nama : Michael Christianto Leonardo</p>
+        <p>NIM : 12180264</p>
+        <p>Jurusan : Manajemen</p>
+        <h2>Hobi Saya adalah :</h2>
+        <ol type="I">
+          <li>Swimming</li>
+          <li>Basketball</li>
+          <li>Music</li>
+        </ol>
+        <h2>Makanan Kesukaan Saya adalah :</h2>
+        <ul type="disc">
+          <li>Steak Tenderloin</li>
+          <li>Nasi Padang</li>
+          <li>Fried Chicken KFC</li>
+        </ul>
+        <p>Dimana Website ini merupakan sebuah Portofolio Diri Saya Tentang Pengalaman Berlibur di Negara Perancis, dan Saya ingin membagikan pengalaman bahagia tersebut kepada semua orang yang berkunjung ke website saya ini. 😎❤</p>
+      </font>
+    </body>
+    <div class="footer">
+      <p>
+        Author: 12180264 - Michael Christianto Leonardo<br />
+        <a href="mailto:michaelcristianto1@gmail.com">michaelcristianto1@gmail.com</a>
+      </p>
+      <a href="https://instagram.com"><img src="IG.png" width="50" height="50" /></a>
+      <a href="https://facebook.com"><img src="Facebook.png" width="50" height="50" /></a>
+      <a href="https://www.tiktok.com/"><img src="Tiktok.png" width="50" height="50" /></a>
+    </div>
+  </html>
+</doctype>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gallery</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: #6fc70a;
+      }
+
+      /* Header/Blog Title */
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: rgb(7, 148, 241);
+      }
+
+      .header h1 {
+        font-size: 50px;
+      }
+
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color: rgba(8, 208, 243, 0.904);
+      }
+
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #1f07f8;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: rgb(196, 184, 21);
+        color: black;
+      }
+
+      /* Create two unequal columns that floats next to each other */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: #6fc70a;
+        padding-left: 20px;
+      }
+
+      /* Fake image */
+      .fakeimg {
+        background-image: url(Paris\ 5.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+      }
+
+      /* Add a card effect for articles */
+      .card {
+        background-color: rgb(233, 106, 21);
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Footer */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: rgb(14, 207, 143);
+        margin-top: 20px;
+      }
+
+      div.gallery {
+        border: 1px solid rgb(9, 253, 253);
+      }
+
+      div.gallery:hover {
+        border: 1px solid rgb(116, 245, 10);
+      }
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
+
+      @media only screen and (max-width: 700px) {
+        .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+        }
+      }
+
+      @media only screen and (max-width: 500px) {
+        .responsive {
+          width: 100%;
+        }
+      }
+
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Responsive layout - when the screen is less than 800px wide, 
+make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+        .leftcolumn,
+        .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      /* Responsive layout - when the screen is less than 400px wide, 
+make the navigation links stack on top of each other instead of next to each other */
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Michael Christianto Leonardo</h1>
+      <p>Mahasiswa Jurusan Manajemen Universitas Bunda Mulia 👨‍🎓</p>
+      <p>Website ini merupakan Portofolio Diri Saya Tentang Pengalaman berlibur ke Negara Perancis, khususnya Kota Paris. Semoga Pengalaman Saya ini bisa menginspirasi maupun memotivasi kalian yang telah berkunjung ke website ini.🥰🙌</p>
+    </div>
+
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="list.html">About Us</a>
+      <a href="Gallery.html">Gallery</a>
+      <a href="Contact Us.html" style="float: right">Contact Us</a>
+    </div>
+
+    <div class="row">
+      <div class="card">
+        <h2>Tempat Wisata yang Menarik di Kota Paris</h2>
+        <h4>Bangunan dan Lokasi yang Ikonik di Paris, yaitu sebagai berikut:</h4>
+
+        <div class="responsive">
+          <div class="gallery">
+            <img src="Arc de Triomphe.jpg" alt="Arc de Triomphe" width="600" height="400" align="middle" border="4" />
+            <div class="desc">Arc de Triomphe</div>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <img src="Grande Arche de la Defense.jpg" alt="Grande Arche de la Defense" width="600" height="400" align="middle" border="4" />
+            <div class="desc">Grande Arche de la Defense</div>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <img src="Esplanade de La Défense.jpg" alt="Esplanade de La Défense" width="600" height="400" align="middle" border="4" />
+            <div class="desc">Esplanade de La Défense</div>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <img src="Cour du Commerce Saint Andre.jpg" alt="Cour du Commerce Saint Andre" width="600" height="400" align="middle" border="4" />
+            <div class="desc">Cour du Commerce Saint Andre</div>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div style="padding: 6px">
+          <p>
+            Dimana gambar ini merupakan bangunan dan lokasi yang sangat ikonik di Kota Paris ketika saya mengunjunginya saat berlibur di sana.Tempat wisata ini sangat diminati oleh banyak kalangan Turis Mancanegara dari belahan penjuru
+            Dunia karena memiliki keunikan tersendiri dan tidak dimiliki oleh negara lain. Maka dari itu, tempat wisata baik dari bangunan, lokasi, tempat pusat perbelanjaan, dan lain sebagainya, yang berada di Kota Paris wajib dikunjungi
+            sebagai Destinasi Wisata terbaik di Dunia.😎🤗
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>
+        Author: 12180264 - Michael Christianto Leonardo<br />
+        <a href="mailto:michaelcristianto1@gmail.com">michaelcristianto1@gmail.com</a>
+      </p>
+      <a href="https://instagram.com"><img src="IG.png" width="50" height="50" /></a>
+      <a href="https://facebook.com"><img src="Facebook.png" width="50" height="50" /></a>
+      <a href="https://www.tiktok.com/"><img src="Tiktok.png" width="50" height="50" /></a>
+    </div>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: #6fc70a;
+      }
+
+      /* Header/Blog Title */
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: rgb(7, 148, 241);
+      }
+
+      .header h1 {
+        font-size: 50px;
+      }
+
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color: rgba(8, 208, 243, 0.904);
+      }
+
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #1f07f8;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: rgb(196, 184, 21);
+        color: black;
+      }
+
+      /* Create two unequal columns that floats next to each other */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: #6fc70a;
+        padding-left: 20px;
+      }
+
+      /* Fake image */
+      .fakeimg {
+        background-image: url(Paris\ 5.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+      }
+
+      /* Add a card effect for articles */
+      .card {
+        background-color: rgb(233, 106, 21);
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Footer */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: rgb(14, 207, 143);
+        margin-top: 20px;
+      }
+
+      .mail {
+        width: 730px;
+        margin: 10px auto;
+        border: 1px solid rgb(247, 243, 6);
+        padding: 10px;
+      }
+      .mail div {
+        padding: 5px 0;
+        border-bottom: 1px solid rgb(3, 203, 253);
+      }
+      label {
+        width: 100px;
+        display: inline-block;
+      }
+      .bottom {
+        font-size: 12px;
+        text-align: right;
+      }
+
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+        .leftcolumn,
+        .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Michael Christianto Leonardo</h1>
+      <p>Mahasiswa Jurusan Manajemen Universitas Bunda Mulia 👨‍🎓</p>
+      <p>Website ini merupakan Portofolio Diri Saya Tentang Pengalaman berlibur ke Negara Perancis, khususnya Kota Paris. Semoga Pengalaman Saya ini bisa menginspirasi maupun memotivasi kalian yang telah berkunjung ke website ini.🥰🙌</p>
+    </div>
+
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="list.html">About Us</a>
+      <a href="Gallery.html">Gallery</a>
+      <a href="Contact Us.html" style="float: right">Contact Us</a>
+    </div>
+
+    <div class="row">
+      <div class="card">
+        <h2>Contact Us:</h2>
+        <h5>
+          Dimana jika dari Teman-Teman ada yang ingin disampaikan kepada saya baik itu Saran, Komentar, dan Keluhan, dan lain sebagainya, bisa mengirimkan pesan melalui kolom Contact Us di Bawah ini. Terimakasih Banyak yang telah berkunjung
+          di Website saya, semoga bisa memberikan manfaat dan motivasi kepada kalian semua. God Bless You All 😉🙏
+        </h5>
+        <div class="mail">
+          <form action="send_mail.php" method="post">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" name="name" />
+            </div>
+
+            <div>
+              <label for="email">Email</label>
+              <input type="text" name="email" />
+            </div>
+
+            <div>
+              <label for="subject">Subject</label>
+              <input type="text" name="subject" />
+            </div>
+
+            <div>
+              <label for="Jns_Pesan :">Message</label>
+              <select name="Jns_Pesan">
+                <option value="Saran">Saran</option>
+                <option value="Komentar">Komentar</option>
+                <option value="Keluhan">Keluhan</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="message">Message</label>
+              <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <div><input type="submit" value="Send email" /></div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>
+        Author: 12180264 - Michael Christianto Leonardo<br />
+        <a href="mailto:michaelcristianto1@gmail.com">michaelcristianto1@gmail.com</a>
+      </p>
+      <a href="https://instagram.com"><img src="IG.png" width="50" height="50" /></a>
+      <a href="https://facebook.com"><img src="Facebook.png" width="50" height="50" /></a>
+      <a href="https://www.tiktok.com/"><img src="Tiktok.png" width="50" height="50" /></a>
+    </div>
+  </body>
+</html>

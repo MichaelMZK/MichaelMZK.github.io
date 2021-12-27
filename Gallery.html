@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gallery</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: #6fc70a;
+      }
+
+      /* Header/Blog Title */
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: rgb(7, 148, 241);
+      }
+
+      .header h1 {
+        font-size: 50px;
+      }
+
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color: rgba(8, 208, 243, 0.904);
+      }
+
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #1f07f8;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: rgb(196, 184, 21);
+        color: black;
+      }
+
+      /* Create two unequal columns that floats next to each other */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: #6fc70a;
+        padding-left: 20px;
+      }
+
+      /* Fake image */
+      .fakeimg {
+        background-image: url(Paris\ 5.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+      }
+
+      /* Add a card effect for articles */
+      .card {
+        background-color: rgb(233, 106, 21);
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Footer */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: rgb(14, 207, 143);
+        margin-top: 20px;
+      }
+
+      div.gallery {
+        border: 1px solid rgb(9, 253, 253);
+      }
+
+      div.gallery:hover {
+        border: 1px solid rgb(116, 245, 10);
+      }
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
+
+      @media only screen and (max-width: 700px) {
+        .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+        }
+      }
+
+      @media only screen and (max-width: 500px) {
+        .responsive {
+          width: 100%;
+        }
+      }
+
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Responsive layout - when the screen is less than 800px wide, 
+make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+        .leftcolumn,
+        .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      /* Responsive layout - when the screen is less than 400px wide, 
+make the navigation links stack on top of each other instead of next to each other */
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Michael Christianto Leonardo</h1>
+      <p>Mahasiswa Jurusan Manajemen Universitas Bunda Mulia 👨‍🎓</p>
+      <p>Website ini merupakan Portofolio Diri Saya Tentang Pengalaman berlibur ke Negara Perancis, khususnya Kota Paris. Semoga Pengalaman Saya ini bisa menginspirasi maupun memotivasi kalian yang telah berkunjung ke website ini.🥰🙌</p>
+    </div>
+
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="list.html">About Us</a>
+      <a href="Gallery.html">Gallery</a>
+      <a href="Contact Us.html" style="float: right">Contact Us</a>
+    </div>
+
+    <div class="row">
+      <div class="card">
+        <h2>Tempat Wisata yang Menarik di Kota Paris</h2>
+        <h4>Bangunan dan Lokasi yang Ikonik di Paris, yaitu sebagai berikut:</h4>
+
+        <div class="responsive">
+          <div class="gallery">
+            <img src="Arc de Triomphe.jpg" alt="Arc de Triomphe" width="600" height="400" align="middle" border="4" />
+            <div class="desc">Arc de Triomphe</div>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <img src="Grande Arche de la Defense.jpg" alt="Grande Arche de la Defense" width="600" height="400" align="middle" border="4" />
+            <div class="desc">Grande Arche de la Defense</div>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <img src="Esplanade de La Défense.jpg" alt="Esplanade de La Défense" width="600" height="400" align="middle" border="4" />
+            <div class="desc">Esplanade de La Défense</div>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <img src="Cour du Commerce Saint Andre.jpg" alt="Cour du Commerce Saint Andre" width="600" height="400" align="middle" border="4" />
+            <div class="desc">Cour du Commerce Saint Andre</div>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div style="padding: 6px">
+          <p>
+            Dimana gambar ini merupakan bangunan dan lokasi yang sangat ikonik di Kota Paris ketika saya mengunjunginya saat berlibur di sana.Tempat wisata ini sangat diminati oleh banyak kalangan Turis Mancanegara dari belahan penjuru
+            Dunia karena memiliki keunikan tersendiri dan tidak dimiliki oleh negara lain. Maka dari itu, tempat wisata baik dari bangunan, lokasi, tempat pusat perbelanjaan, dan lain sebagainya, yang berada di Kota Paris wajib dikunjungi
+            sebagai Destinasi Wisata terbaik di Dunia.😎🤗
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>
+        Author: 12180264 - Michael Christianto Leonardo<br />
+        <a href="mailto:michaelcristianto1@gmail.com">michaelcristianto1@gmail.com</a>
+      </p>
+      <a href="https://instagram.com"><img src="IG.png" width="50" height="50" /></a>
+      <a href="https://facebook.com"><img src="Facebook.png" width="50" height="50" /></a>
+      <a href="https://www.tiktok.com/"><img src="Tiktok.png" width="50" height="50" /></a>
+    </div>
+  </body>
+</html>
